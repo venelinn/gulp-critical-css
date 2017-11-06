@@ -1,6 +1,7 @@
-gulp-css-target
+gulp-critical-css
 ============
 
+Based on gulp-css-target! 
 Break a CSS file down into multiple targets allowing for better targeting and performance. See the `test` directory for a working example.
 
 ## Installation
