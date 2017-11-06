@@ -7,7 +7,7 @@ Break a CSS file down into multiple targets allowing for better targeting and pe
 ## Installation
 
 ```bash
-npm install --save-dev gulp-css-target
+npm install --save-dev gulp-critical-css
 ```
 
 ## Usage
@@ -21,12 +21,12 @@ npm install --save-dev gulp-css-target
 .target {
   _test: "@include target(test-target) { content: bar }";
 }
-/*! @{target: My Awesome Target} */
+/*! @{target: critical} */
 .target {
   content: bar;
 }
 
-/*! {target: My Awesome Target}@ */
+/*! {target: critical}@ */
 /*! @{target:a-target-without-space} */
 .baz {
   content: qux;
