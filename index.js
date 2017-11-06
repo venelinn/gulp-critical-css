@@ -42,11 +42,11 @@ var findTargets = function (file) {
     cut = cut.replace(parts[0], '').replace(endString, '');
 
     if (files[parts[2]]) {
-      files[parts[2]].push(cut);
+      files[parts[2]].push('\n'+cut);
     }
     else {
       files[parts[2]] = [];
-      files[parts[2]].push(cut);
+      files[parts[2]].push('\n'+cut);
     }
   }
 
