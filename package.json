@@ -1,7 +1,7 @@
 {
   "name": "gulp-critical-css",
   "version": "0.1.0",
-  "description": "Gulp helpers for Toolkit (http://github.com/team-sass/toolkit)",
+  "description": "Gulp for Critical CSS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,12 +18,13 @@
   "keywords": [
     "gulp",
     "gulpplugin",
+    "critical",
     "css",
     "rwd",
     "target",
     "sass"
   ],
-  "author": "Sam Richard",
+  "author": "Venelin Nikolov",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/venelinn/gulp-critical-css/issues"
