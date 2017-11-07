@@ -7,7 +7,7 @@ Break a CSS file down into multiple targets allowing for better targeting and pe
 ## Installation
 
 ```bash
-npm install --save-dev gulp-critical-css
+npm install --save-dev gulp-css-critical
 ```
 
 ## Usage
