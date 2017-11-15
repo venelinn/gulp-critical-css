@@ -79,7 +79,7 @@ module.exports = function (options) {
       var contents = targets.files[i].join('');
 
       gutil.log('Creating target file ' + chalk.magenta(filename));
-      fs.outputFile(base + filename, contents, function (err) {
+      fs.outputFile(base + filename, contents, {'flag': 'a'}, function (err) {
         if (err) {
           return new gutil.PluginError({
             plugin: PLUGIN_NAME,
