@@ -37,7 +37,7 @@ npm install --save-dev gulp-css-critical
 
 ### JavaScript
 ```javascript
-var target = require('gulp-css-target');
+var target = require('gulp-css-critical');
 
 // Same Directory
 gulp.task('target', function () {
