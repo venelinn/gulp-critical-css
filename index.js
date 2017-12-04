@@ -78,12 +78,12 @@ module.exports = function (options) {
       var filename = _s.slugify(i) + '.css';
       var contents = targets.files[i].join('');
 
-      gutil.log('Creating target file ' + chalk.magenta(filename));
+      gutil.log('Creating Critical file ' + chalk.magenta(filename));
       fs.outputFile(base + filename, contents, {'flag': 'a'}, function (err) {
         if (err) {
           return new gutil.PluginError({
             plugin: PLUGIN_NAME,
-            message: 'Error creating target file: ' + err
+            message: 'Error creating Critical file: ' + err
           });
         }
       });
@@ -92,7 +92,7 @@ module.exports = function (options) {
     file.contents = new Buffer(targets.file);
     stream.push(file);
     if (Object.keys(targets.files).length) {
-      gutil.log('Removed targeted CSS from ' + chalk.magenta(file.path.replace(file.base + '/', '')));
+      gutil.log('Removed Critical CSS from ' + chalk.magenta(file.path.replace(file.base + '/', '')));
     }
 
     done();
