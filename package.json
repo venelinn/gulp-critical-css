@@ -35,7 +35,7 @@
     "fs-extra": "^0.9.1",
     "gulp-util": "^2.2.17",
     "stream": "0.0.1",
-    "underscore.string": "^2.3.3"
+    "underscore.string": ">=3.3.5"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
