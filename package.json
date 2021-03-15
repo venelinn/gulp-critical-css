@@ -1,6 +1,6 @@
 {
   "name": "gulp-css-critical",
-  "version": "0.1.2",
+  "version": "0.2",
   "description": "Gulp for Critical CSS",
   "main": "index.js",
   "scripts": {
